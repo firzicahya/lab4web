@@ -67,6 +67,20 @@ Hasil nya
 ![Screenshot (53)](https://user-images.githubusercontent.com/73973590/161802247-6973d054-7c43-494e-8d1d-e1b4fa4d44e9.png)
 
 
+Tambahkan layout untuk menu About
+Step 1
+![Screenshot (57)](https://user-images.githubusercontent.com/73973590/162023723-96a77a63-0c63-444d-b45a-098aef9fcb5d.png)
+![Screenshot (58)](https://user-images.githubusercontent.com/73973590/162023765-de459904-07e4-4b87-8228-7479be94f8de.png)
+Step 2
+![Screenshot (59)](https://user-images.githubusercontent.com/73973590/162023833-bc2710b0-1c83-40bd-b34a-eb6bf972e03f.png)
+![Screenshot (60)](https://user-images.githubusercontent.com/73973590/162023866-8fc425c3-fb21-4f73-a3f7-bae3d6d0427e.png)
+Hasil nya 
+![Screenshot (54)](https://user-images.githubusercontent.com/73973590/162023913-31861540-5b0d-445c-9a20-4905a8b4c342.png)
+![Screenshot (55)](https://user-images.githubusercontent.com/73973590/162023936-0007d384-c33e-47eb-8c0a-1e8b1e9b7dad.png)
+![Screenshot (56)](https://user-images.githubusercontent.com/73973590/162023983-0b7d64bb-5470-4a44-93b1-8c241a5086e1.png)
+
+
+
 
 
 
