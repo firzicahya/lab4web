@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--Menambahkan link navigasi-->
+<nav>
+    <a href="home.html" class="active">Home</a>
+    <a href="artikel.html">Artikel</a>
+    <a href="about.html">About</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+<!--
+
+
+,,
+			 `7MMF'     A     `7MF'     `7MM                                                OO
+				 `MA     ,MA     ,V         MM                                                88
+					VM:   ,VVM:   ,V .gP"Ya   MM  ,p6"bo   ,pW"Wq.`7MMpMMMb.pMMMb.  .gP"Ya      ||
+					 MM.  M' MM.  M',M'   Yb  MM 6M'  OO  6W'   `Wb MM    MM    MM ,M'   Yb     ||
+					 `MM A'  `MM A' 8M""""""  MM 8M       8M     M8 MM    MM    MM 8M""""""     `'
+						:MM;    :MM;  YM.    ,  MM YM.    , YA.   ,A9 MM    MM    MM YM.    ,     ,,
+						 VF      VF    `Mbmmd'.JMML.YMbmd'   `Ybmd9'.JMML  JMML  JMML.`Mbmmd'     db
+
+
+
+
+
+
+ -->
+
+<html>
+
+<head>
+	<title>Firzi Cahya Priana | Web Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- mengambil CSS Eksternal -->
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<section>
+		<nav>
+			<div class="toggle">
+				<button onclick="menu_open()" class="tombol tombol-navigasi">Menu</button>
+			</div>
+			<ul style="padding-top:20px;" id="menu-list">
+				<li><a href="#aboutme">About Me</a></li>
+			</ul>
+		</nav>
+		<div class="banner">
+			<center>
+				<div id="circle3"></div>
+				<div id="circle2"></div>
+				<div id="circle"></div>
+				<div class="title">
+					<h1 class="name">~Hi I'm Firzi Cahya Priana!</h1>
+					<p> Mahasiswa dan Karyawan </p>
+					<!-- <div class="circle-small">
+									<br/>
+									<b>V</b>
+								</div> -->
+
+				</div>
+			</center>
+		</div>
+		<div id="aboutme">
+		</div>
+		<!-- Start SVG Curve -->
+		<svg id="curve" viewBox="0 0 1400 214.953" xml:space="preserve">
+			<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z" />
+		</svg>
+		<!-- End SVG Curve -->
+	</section>
+	<div id="wrapper">
+		<section class="sec2">
+			<div class="content">
+				<div>
+					<h1 class="title-content">About Me</h1>
+					<div class="left-menu">
+						<div class="circle-avatar"></div>
+
+					</div>
+					<div class="right-menu">
+						<p>
+							Hai :) <br />Saya adalah seorang <i class="english">Mahasiswa dan Karyawan </i>, <i
+								class="english">di Universitas Pelita Bangsa </i>, <i class="english">Saya Bekerja di perusahaan di bidang kosmeti bagian admin gudang</i>,
+						</i>.
+						</p>
+						<p>
+							Lahir pada bulan <b class="important">Juli</b> tanggal <b class="important">28</b> dan
+							tahun <b class="important">2001</b>, bertempat di <b class="important">Cikarang</b>, Jawa
+							Barat, Indonesia.
+						</p>
+						<p>
+							Tinggal dan Lahir di Kota <b class="important">Tasikmalaya</b>, membuat Saya begitu menyukai <b
+								class="important">Tantangan & Belajar Hal-hal Baru</b> terlebih lagi dalam <b
+								class="important">Perkembangan Teknologi</b> yang begitu <b class="important">Pesat</b>.
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="sec3" id="education">
+			<div class="content content-float">
+				<h1 class="title-content">Education</h1>
+				<div class="area-card">
+					<div class="card">
+						<div class="card-body">
+							<p style="color:#fff">
+								<b>SDN RAJAGALU LOR 3</b>
+								<br />
+							</p>
+							<a href="#modal-sd" class="tombol tombol-link">Detail</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<p style="color:#fff">
+								<b>SMP Negri 1 Rajagaluh</b>
+								<br />
+							</p>
+							<a href="#modal-smp" class="tombol tombol-link">Detail</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<p style="color:#fff">
+								<b>SMK Negri 1 Leuwimunding </b>
+								<br />
+							</p>
+							<a href="#modal-sma" class="tombol tombol-link">Detail</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<p style="color:#fff">
+								<b>Universitas<br />Pelita Bangsa </b>
+								<br />
+								<i>2020-Now (SMT 4)</i>
+							</p>
+							<a href="#modal-unsika" class="tombol tombol-link">Detail</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<svg id="curve2" viewBox="0 0 1400 214.953" xml:space="preserve">
+				<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z" />
+			</svg>
+		</section>
+
+				</ul>
+
+				</p>
+			</div>
+		</section>	
+	<script type="text/javascript">
+		function menu_open() {
+			let menu_list = document.getElementById('menu-list');
+			let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+			menu_list.className = " tampilkan";
+			tombol_navigasi.setAttribute('onclick', 'menu_close()');
+		}
+
+		function menu_close() {
+			let menu_list = document.getElementById('menu-list');
+			let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+			menu_list.className = " hidden";
+			tombol_navigasi.setAttribute('onclick', 'menu_open()');
+		}
+	</script>
+</body>
+
+</html>
